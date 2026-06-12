@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply font-kid;
+  }
+  body {
+    @apply bg-gradient-to-br from-sky-light via-clay-50 to-duck-light min-h-screen;
+  }
+}
+
+@layer components {
+  .clay-card {
+    @apply bg-white rounded-clay shadow-clay p-6 hover:shadow-clay-lg transition-shadow;
+  }
+}
